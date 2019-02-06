@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class VowelConsonant {
-
-    public static void main(String[] args) {
+public class VowelConsonant
+{
+    public static void main(String[] args) 
+    {
         Scanner input=new Scanner(System.in);
 	
 	System.out.println("Enter a character : ");
@@ -17,4 +18,6 @@ public class VowelConsonant {
         else
 {
             System.out.println("Consonant");
+}
+    }
 }

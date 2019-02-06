@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class positivenegative
+class positivenegative
 {
     public static void main(String[] args) 
     {
@@ -9,15 +9,15 @@ public class positivenegative
        
         if(number > 0)
         {
-            System.out.println(" positive");
+            System.out.println("Positive");
         }
         else if(number < 0)
         {
-            System.out.println(" negative");
+            System.out.println("Negative");
         }
         else
         {
-            System.out.println("zero");
+            System.out.println("Zero");
         }
     }
 }
